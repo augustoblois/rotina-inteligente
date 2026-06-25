@@ -5,6 +5,7 @@ Etapa 2: Encapsulamento, Herança, Polimorfismo, Interfaces, SOLID
 
 from datetime import date
 from abc import ABC, abstractmethod
+
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -359,11 +360,11 @@ if __name__ == "__main__":
 
     # Tarefas com prazo
     r.adicionar("Quinta",   Tarefa(
-        "Trabalho Psicologia Social", 3, 5, date(2026, 5, 22)))
+        "Trabalho Psicologia Social", 3, 5, date(2026, 6, 18)))   # ATRASADA
     r.adicionar("Terça",    Tarefa(
-        "Relatório de estágio",       2, 4, date(2026, 5, 27)))
+        "Relatório de estágio",       2, 4, date(2026, 6, 24)))   # HOJE
     r.adicionar("Sábado",   Tarefa(
-        "Revisão para prova",         3, 4, date(2026, 5, 30)))
+        "Revisão para prova",         3, 4, date(2026, 7, 2)))    # NO PRAZO
 
     # Hábitos de saúde
     academia = HabitoSaude("Academia", 1, 3, frequencia_semanal=3)
