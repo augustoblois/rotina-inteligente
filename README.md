@@ -1,5 +1,8 @@
 # Rotina Inteligente
 
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
+![Stdlib only](https://img.shields.io/badge/deps-stdlib%20only-success)
+
 Projeto acadêmico de **Princípios de Programação** (UFPB).
 
 Tema: **Rotina Inteligente** — gerenciador de atividades para a persona **Camila**, estudante de Psicologia. O domínio (a rotina e as atividades da Camila) é o mesmo nas duas etapas, mas cada etapa o **reimplementa do zero** num nível maior de sofisticação de POO.
